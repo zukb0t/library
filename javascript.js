@@ -54,9 +54,9 @@ function displayBooks(){
     remove.classList.add("btn");
     //using a forEach, we will display all books to the DOM
     library.forEach(function(element){
-        name.innerHTML ="Name of book: " + element.book_name;
-        author.innerHTML = "Name of author: " + element.author_name;
-        pages.innerHTML = "Number of pages: " + element.num_pages;
+        name.innerHTML ="Name of book: " + element.title;
+        author.innerHTML = "Name of author: " + element.author;
+        pages.innerHTML = "Number of pages: " + element.pages;
         read.innerHTML = "Finished: " + element.finished;
         remove.innerHTML = "Remove book";
         finished.innerHTML = "Finished";
