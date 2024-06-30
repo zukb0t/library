@@ -82,3 +82,6 @@ function displayBooks(){
 }
 
 bookform.addEventListener("submit",addBook);
+const book_one = new Book("The Hobbit", "J.R.R", 295, "no");
+library.push(book_one);
+displayBooks();
